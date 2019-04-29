@@ -1,4 +1,4 @@
 # TodoApp_API_NodeJS
 
-Simple backend API using node-restful and MongoDB.
+Simple back-end API using node-restful and MongoDB.
 
