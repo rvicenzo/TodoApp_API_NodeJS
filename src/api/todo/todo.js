@@ -3,8 +3,9 @@ const mongoose = restful.mongoose
 
 //cria o schema do model e suas validações
 const todoSchema = new mongoose.Schema({
-    description: { type: String, required: true },
-    done: { type: Boolean, require: true, default: false },
+    time: { type: String, required: true },
+    modality: { type: String, require: true },
+    date: { type: Date, require: true },
     createdAt: { type: Date, default: Date.now }
 })
 
