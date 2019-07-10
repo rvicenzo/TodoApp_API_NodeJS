@@ -1,4 +1,4 @@
-const port = 8001
+const port = process.env.PORT || 8001
 
 const bodyParser = require('body-parser')
 const express = require('express')
